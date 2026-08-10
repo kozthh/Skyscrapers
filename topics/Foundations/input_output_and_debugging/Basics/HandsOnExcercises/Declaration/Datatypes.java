@@ -1,3 +1,4 @@
+package Skycrapers.topics.Foundations.input_output_and_debugging.Basics.HandsOnExcercises.Declaration;
 class Datatypes {
     public static void main(String[] args) {
         String name = "Kenneth";
@@ -5,8 +6,8 @@ class Datatypes {
         double monthlyIncome = 5000000.50;
         boolean isPogi = true;
         char gender = 'M';
-        long bank = 1000000000000L
-        float
+        long bank = 1000000000000L;
+
 
         //just printing data types
         //Arrays and Names are jusr reference for the memory
