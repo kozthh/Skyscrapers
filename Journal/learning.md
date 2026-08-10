@@ -102,6 +102,7 @@ Learning Journal
 	- `ShopFlow_PartE_Career_Interview_Readiness_v2.pdf`
   - `Skycrapers/Journal/learning.md` (this journal)
 
+## 8/6/2026
 - What I learned/practiced today:
   - How to copy a repo to a local IDE: used `git clone <repo-url>` to copy the repository locally, then opened the project in IntelliJ/VS Code (File → Open / Open Folder).
   - Useful Git commands I practiced: `git clone`, `git status`, `git branch`, `git checkout <branch>` / `git switch <branch>`, `git checkout -b <new-branch>`, `git fetch`, `git pull`, `git merge`, `git rebase` (when needed), `git add .`, `git commit -m "msg"`, and `git push`.
@@ -114,10 +115,22 @@ Learning Journal
   - Review updated PDFs and note any changes to study schedules or priorities.
 
 
+## 8/10/2026
+
+Reviewed floating point vs. integer division in Java — learned that casting has to happen before the division (not just on the variable declaration) to actually get a decimal result.
+
+Fixed syntax highlighting issues in IntelliJ after cloning my Skyscraper repo. Turned out to be caused by hyphens and leading digits in my folder names, which broke valid Java package naming. Renamed the folders and got packages working properly.
+
+Built a **Quiz App** using arrays, `ArrayList`, and a `switch`/`do-while` loop that asks Philippine trivia questions.
+
+Debugged two real bugs along the way:
+- A missing `break` in `case 3` was causing fallthrough into `default`.
+- A `Scanner` buffer issue where `nextInt()` left a leftover newline, which truncated my multi-word answers. Fixed by clearing the buffer with `nextLine()`.
 ---
 
 ## Phase 0 — Java Foundations
 - August 8, 2026: Today I took care of my responsibilities, stayed productive, and ended the day feeling proud of myself for getting things done also did small excercises in loops.
+
 ---
 
 ## Git & GitHub Essentials
