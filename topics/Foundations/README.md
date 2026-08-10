@@ -9,5 +9,5 @@ Subfolders:
 - [Syntax and Setup](syntax-and-setup/README.md)
 - [Variables and Control Flow](variables-and-control-flow/README.md)
 - [Methods and Organization](methods-and-organization/README.md)
-- [Input, Output, and Debugging](input-output-and-debugging/README.md)
+- [Input, Output, and Debugging](input_output_and_debugging/README.md)
 - [Mini Projects and Revision](mini-projects-and-revision/README.md)

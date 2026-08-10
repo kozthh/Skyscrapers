@@ -1,5 +1,8 @@
+/**
+*
+*/
+package Skycrapers.topics.Foundations.input_output_and_debugging.Basics.HandsOnExcercises.BasicLoops.GradeCalculator;
 import java.util.Scanner;
-import java.util.Arrays;
 
 class Calculator {
     public static void main(String[] args) {
