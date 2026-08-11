@@ -126,6 +126,26 @@ Built a **Quiz App** using arrays, `ArrayList`, and a `switch`/`do-while` loop t
 Debugged two real bugs along the way:
 - A missing `break` in `case 3` was causing fallthrough into `default`.
 - A `Scanner` buffer issue where `nextInt()` left a leftover newline, which truncated my multi-word answers. Fixed by clearing the buffer with `nextLine()`.
+
+# Debugging and Testing
+
+## August 11, 2026
+
+## What I did
+Finished my mini project: a terminal-based **Library Management System** in Java, built to practice OOP, SOLID, ArrayList, and exceptions.
+
+## Key takeaways
+- **Encapsulation**: kept `available` private, changed only via `markAsBorrowed()` / `markAsReturned()`
+- **Single Responsibility**: split logic into `Book` (data), `Library` (business logic), and planned `LibraryMenu` (I/O) instead of one bloated class
+- **No database** → used `ArrayList<Book>` as in-memory storage; ISBN as unique lookup key
+- **Seed data vs. runtime input**: hardcode a few books for testing, let users add more via `Scanner`
+- **Display**: overrode `toString()` in `Book`, looped with for-each in `listBooks()`
+- **Exceptions to add**: `BookNotFoundException`, `BookNotAvailableException`, `DuplicateIsbnException`
+
+## Next steps
+- [ ] Move Scanner/menu code into `LibraryMenu`
+- [ ] Implement custom exceptions
+- [ ] Add duplicate ISBN check
 ---
 
 ## Phase 0 — Java Foundations
