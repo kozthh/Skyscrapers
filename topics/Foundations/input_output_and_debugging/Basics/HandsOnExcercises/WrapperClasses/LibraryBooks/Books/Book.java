@@ -1,47 +1,48 @@
-package Skycrapers.topics.Foundations.input_output_and_debugging.Basics.HandsOnExcercises.WrapperClasses.LibraryBooks.Books;
+package topics.Foundations.input_output_and_debugging.Basics.HandsOnExcercises.WrapperClasses.LibraryBooks.Books;
 
 public class Book {
-    private String bookTiTle;
-    private String bookAuthor;
-    private int bookYear;
-    public boolean availability;
 
-    public Book(String bookTiTle, String bookAuthor, int bookYear, boolean availability) {
-        this.bookTiTle = bookTiTle;
-        this.bookAuthor = bookAuthor;
-        this.bookYear = bookYear;
-        this.availability = availability;
+    private String title;
+    private String author;
+    private int year;
+    private boolean available;
+
+    public Book(String title, String author, int year, boolean available) {
+        this.title = title;
+        this.author = author;
+        this.year = year;
+        this.available = available;
     }
 
-    public String getBookTiTle() {
-        return bookTiTle;
+    public String getTitle() {
+        return title;
     }
 
-    public String getBookAuthor() {
-        return bookAuthor;
+    public String getAuthor() {
+        return author;
     }
 
-    public int getBookYear() {
-        return bookYear;
+    public int getYear() {
+        return year;
     }
 
-    public boolean getAvailability() {
-        return availability;
+    public boolean isAvailable() {
+        return available;
     }
 
-    public void setBookTiTle(String bookTiTle) {
-        this.bookTiTle = bookTiTle;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
-    public void setBookAuthor(String bookAuthor) {
-        this.bookAuthor = bookAuthor;
+    public void setAuthor(String author) {
+        this.author = author;
     }
 
-    public void setBookYear(int bookYear) {
-        this.bookYear = bookYear;
+    public void setYear(int year) {
+        this.year = year;
     }
 
-    public void setAvailability(boolean availability) {
-        this.availability = availability;
+    public void setAvailable(boolean available) {
+        this.available = available;
     }
 }
