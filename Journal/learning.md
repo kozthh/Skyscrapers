@@ -143,9 +143,9 @@ Finished my mini project: a terminal-based **Library Management System** in Java
 - **Exceptions to add**: `BookNotFoundException`, `BookNotAvailableException`, `DuplicateIsbnException`
 
 ## Next steps
-- [ ] Move Scanner/menu code into `LibraryMenu`
-- [ ] Implement custom exceptions
-- [ ] Add duplicate ISBN check
+- [done] Move Scanner/menu code into `LibraryMenu`
+- [done] Implement custom exceptions
+- [done] Add duplicate ISBN check
 ---
 
 ## Phase 0 — Java Foundations
