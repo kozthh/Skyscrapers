@@ -1,5 +1,3 @@
-import logger.ConsoleLog;
-import logger.FileLog;
 import logger.LoggerSwitcher;
 import logger.Logging;
 import java.util.Scanner;
@@ -9,22 +7,10 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Choose logger (console, file, db): ");
         String choice = scanner.nextLine();
+        scanner.close();
 
         LoggerSwitcher switcher = new LoggerSwitcher();
-        Logging logger;
-        switch (choice == null ? "" : choice.toLowerCase()) {
-            case "file":
-                logger = new FileLog();
-                break;
-            case "db":
-                logger = switcher.selectLogger("db");
-                break;
-            case "console":
-            default:
-                logger = new ConsoleLog();
-                break;
-        }
-
+        Logging logger = switcher.selectLogger(choice);
         logger.input();
     }
 }

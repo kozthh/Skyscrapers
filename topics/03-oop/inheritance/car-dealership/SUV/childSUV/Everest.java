@@ -1,7 +1,7 @@
 package childSUV;
 
 import parentcrossover.InvalidPriceException;
-import parentsuv.suv;
+import parentSUV.suv;
 
 public class Everest extends suv {
     private int horsepower;

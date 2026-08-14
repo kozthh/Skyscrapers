@@ -1,4 +1,4 @@
-package parentsuv;
+package parentSUV;
 
 public class suv {
     private final String color;
