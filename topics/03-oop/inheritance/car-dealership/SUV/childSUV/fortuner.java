@@ -1,7 +1,7 @@
 package childSUV;
 
 import parentcrossover.InvalidPriceException;
-import parentsuv.suv;
+import parentSUV.suv;
 
 public class Fortuner extends suv {
     private int horsepower;

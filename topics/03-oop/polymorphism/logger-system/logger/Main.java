@@ -5,22 +5,12 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.print("Choose logger (console, file, db): ");
         String choice = scanner.nextLine();
+        scanner.close();
 
-        Logging logger;
-        switch (choice == null ? "" : choice.toLowerCase()) {
-            case "file":
-                logger = new FileLog();
-                break;
-            case "db":
-                logger = new DbLog();
-                break;
-            case "console":
-            default:
-                logger = new ConsoleLog();
-                break;
-        }
-
+        LoggerSwitcher switcher = new LoggerSwitcher();
+        Logging logger = switcher.selectLogger(choice);
         logger.input();
     }
 }

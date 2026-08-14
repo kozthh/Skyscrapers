@@ -1,9 +1,10 @@
 package notifications.apps;
+
 import notifications.absrule.NotificationRule;
 
-public class Gmail extends NotificationRule {
+public class Sms extends NotificationRule {
     @Override
     public void paidNotifications() {
-        System.out.print("Gmail: Hey you paid your parking fee successfully");
+        System.out.print("you successfully paid your parking fee, thank you so much ");
     }
 }
