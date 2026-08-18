@@ -148,6 +148,16 @@ Finished my mini project: a terminal-based **Library Management System** in Java
 - [done] Add duplicate ISBN check
 ---
 
+
+## August 17, 2026
+- I am learning the fundamentals of Database specially the  //bro yesterday github is down 
+
+## August 18, 2026
+- I am learning the fundamentals of Database again also learning about i/cd pipelines learning both
+- 
+## What I did
+Finished my mini project: a terminal-based **Library Management System** in Java, built to practice OOP, SOLID, ArrayList, and exceptions.
+
 ## Phase 0 — Java Foundations
 - August 8, 2026: Today I took care of my responsibilities, stayed productive, and ended the day feeling proud of myself for getting things done also did small excercises in loops.
 
