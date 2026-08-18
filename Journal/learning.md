@@ -150,8 +150,11 @@ Finished my mini project: a terminal-based **Library Management System** in Java
 
 
 ## August 17, 2026
-- I am learning the fundamentals of Database specially the MySQL
+- I am learning the fundamentals of Database specially the  //bro yesterday github is down 
 
+## August 18, 2026
+- I am learning the fundamentals of Database again also learning about i/cd pipelines learning both
+- 
 ## What I did
 Finished my mini project: a terminal-based **Library Management System** in Java, built to practice OOP, SOLID, ArrayList, and exceptions.
 
