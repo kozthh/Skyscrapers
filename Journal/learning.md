@@ -161,6 +161,9 @@ Finished my mini project: a terminal-based **Library Management System** in Java
 ## August 19, 2026 
 - I did study database for hours that is my main focus now how to handle create relational of tables in data base currently using mysql
 
+## August 24, 2026
+- studied relational database and some functions and ligics how db works 
+
 ## Phase 0 — Java Foundations
 - August 8, 2026: Today I took care of my responsibilities, stayed productive, and ended the day feeling proud of myself for getting things done also did small excercises in loops.
 
