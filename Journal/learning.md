@@ -167,6 +167,9 @@ Finished my mini project: a terminal-based **Library Management System** in Java
 ## August 25, 2026 
 - I am making small data bases and studying their relations using join group by AS and etc.
 
+## August 26, 2026
+- build a small school database with relational and studying it.
+
 ## Phase 0 — Java Foundations
 - August 8, 2026: Today I took care of my responsibilities, stayed productive, and ended the day feeling proud of myself for getting things done also did small excercises in loops.
 
