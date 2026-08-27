@@ -170,6 +170,10 @@ Finished my mini project: a terminal-based **Library Management System** in Java
 ## August 26, 2026
 - build a small school database with relational and studying it.
 
+## August 27, 2026 
+- Studying relational tables and applying it to my initial apps
+  Relational pk fk left side right side cartitian planes.
+
 ## Phase 0 — Java Foundations
 - August 8, 2026: Today I took care of my responsibilities, stayed productive, and ended the day feeling proud of myself for getting things done also did small excercises in loops.
 
