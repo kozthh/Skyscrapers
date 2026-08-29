@@ -81,7 +81,7 @@ Learning Journal
 
 ### 8/3/2026
 - Practiced terminal commands and reviewed the basics of command-line fundamentals.
-- Installed WSL and set up the environment for further learning.
+- Installed WSL and set up the environment for further learning. 
 - Plan to continue studying Linux commands and Java compilation through the terminal.
 
 ### 8/4/2026
@@ -175,7 +175,7 @@ Finished my mini project: a terminal-based **Library Management System** in Java
   Relational pk fk left side right side cartitian planes.
 
 ## August 29, 2026 
-- Studying relational still on FK and PK how do they work and also the cartitian plane is still difficult for me and working on it 
+- Studying relational still on FK and PK how do they work and also the cartitian plane is still difficult for me and working on it.
   
 ## Phase 0 — Java Foundations
 - August 8, 2026: Today I took care of my responsibilities, stayed productive, and ended the day feeling proud of myself for getting things done also did small excercises in loops.
