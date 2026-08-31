@@ -127,6 +127,14 @@ Debugged two real bugs along the way:
 - A missing `break` in `case 3` was causing fallthrough into `default`.
 - A `Scanner` buffer issue where `nextInt()` left a leftover newline, which truncated my multi-word answers. Fixed by clearing the buffer with `nextLine()`.
 
+## 8/30/2026 — Retrospective: Locking In on DSA
+- Decision: Going to **lock in on Data Structures & Algorithms** from here on.
+- Commitment: Consistent, focused practice on DSA (arrays, linked lists, trees, graphs, hash tables, sorting, dynamic programming) and problem-solving (LeetCode-style).
+- Intention: Build real depth instead of just brushing topics, prioritizing consistency and retention.
+- Next: Follow the Part D DSA study plan and track progress daily in this journal.
+
+---
+
 # Debugging and Testing
 
 ## August 11, 2026
