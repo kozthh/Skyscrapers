@@ -1,0 +1,8 @@
+//
+// Created by kenne on 8/31/2026.
+//
+
+#ifndef SKYSCRAPERS_BEGINNING_H
+#define SKYSCRAPERS_BEGINNING_H
+
+#endif //SKYSCRAPERS_BEGINNING_H
