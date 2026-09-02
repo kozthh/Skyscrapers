@@ -187,6 +187,12 @@ Finished my mini project: a terminal-based **Library Management System** in Java
 
 ## August 30, 2026 
 - this day I analyze my progress this week so far I think I am not consistent for this week so i need to lock in in DSA and DATABASES but recently i am doing good with databases also i need to improve in egames.
+
+## September 1, 2026 
+- did cpp practices along with algorithms
+
+## September 2 2026 
+-study theories of how group by works in databases
   
 ## Phase 0 — Java Foundations
 - August 8, 2026: Today I took care of my responsibilities, stayed productive, and ended the day feeling proud of myself for getting things done also did small excercises in loops.
