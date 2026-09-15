@@ -193,6 +193,41 @@ Finished my mini project: a terminal-based **Library Management System** in Java
 
 ## September 2 2026 
 -study theories of how group by works in databases
+
+## September 3-15 2026 
+September 15, 2026
+
+This week I focused on C++ and databases. I spent most days coding and designing schemas, and by the end of the week I had built several small database projects and implemented core algorithms in C++.
+
+What I did
+
+Studied C++ fundamentals and practiced by implementing algorithms and data structures.
+Built multiple databases to practice schema design and SQL:
+School DB: students, courses, enrollments, grades.
+Company DB: employees, departments, projects, payroll.
+(Other small practice schemas to explore relations and constraints.)
+Implemented and tested algorithms in C++:
+Merge sort
+Linear search
+Binary search
+(Variants and practice cases to check correctness and complexity)
+Wrote queries and used basic CRUD operations to interact with the databases; practiced joins, foreign keys, and simple indexing.
+What I learned / takeaways
+
+Reinforced how to translate real-world entities into relational schemas and choose appropriate keys and relationships.
+Got more comfortable with pointers, arrays, and iterative vs. recursive approaches in C++.
+Practiced algorithm analysis: verifying time/space complexity and testing edge cases.
+Saw the value of small, focused projects for consolidating concepts.
+Challenges
+
+Debugging off-by-one errors and boundary cases in sorting/search code.
+Designing schemas to avoid redundancy while keeping queries straightforward.
+Next steps
+
+Add unit tests for each algorithm to catch edge cases automatically.
+Normalize the database schemas further and add sample data for more realistic queries.
+Explore more C++ features (STL containers, smart pointers) and advanced SQL topics (indexes, transactions, joins optimization).
+Overall, a productive week — solid hands-on practice in both C++ and databases.
   
 ## Phase 0 — Java Foundations
 - August 8, 2026: Today I took care of my responsibilities, stayed productive, and ended the day feeling proud of myself for getting things done also did small excercises in loops.
