@@ -2,33 +2,65 @@
 // Created by kenne on 9/8/2026.
 //
 #include<iostream>
+#include<algorithm>
+
 using namespace std;
 
-int sum(int num);
-int linus(int m);
-
-void sort(int num[], int length);
+void MergeSort(int arr[], int L, int R);
+void merge(int* arr, int i, int m, int r);
 int main()
 {
+    int arr[] = {32,45,76,47,26,18,7,37,26,1,5,3,78};
+    int L = 0;
+    int R = sizeof(arr)/sizeof(arr[0]) - 1;
 
-    cout << sum(23) << endl;
-    cout << linus(1) << endl;
+    MergeSort(arr, L, R);
+
+    for (int i = 0; i <= R; ++i)
+        cout << arr[i] << " ";
+    cout << endl;
 
 return 0;}
 
-int sum(int num)
+void merge(int arr [], int L, int M, int R)
 {
-    if (num != 0)
-        return (num + sum(num - 1));
-    else
-        return num;
+    int i = L;
+    int j = M+1;
+    int k = L;
+
+    int size = R - L + 1;
+    int* temp = new int[size];
+
+    while (i <= M && j <= R)
+    {
+        if (arr[i] <= arr[j])
+            temp[k-L] = arr[i++];
+        else
+            temp[k-L] = arr[j++];
+        k++;
+    }
+
+    while (i <= M)
+        temp[k-L] = arr[i++], k++;
+    while (j <= R)
+        temp[k-L] = arr[j++], k++;
+
+    for (i = L; i <= R; i++)
+        arr[i] = temp[i-L];
+
+    delete[] temp;
 }
 
-int linus(int m)
+void MergeSort(int arr[] ,int L, int R)
 {
-    if (m < 100)
-        return linus(m+1);
-    else
-        return m;
+    int M;
 
+    if (L<R)
+    {
+        M = (L+R)/2;
+
+        MergeSort(arr, L,  M);
+        MergeSort(arr, M+1, R);
+        merge(arr, L, M, R);
+    }
 }
