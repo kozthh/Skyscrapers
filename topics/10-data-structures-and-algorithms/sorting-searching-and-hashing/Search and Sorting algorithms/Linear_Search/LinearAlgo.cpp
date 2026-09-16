@@ -11,22 +11,24 @@ int main(){
     int key;
     bool isFound = false;
 
-    cout << "find a number :";
+    cout << "Enter a number to find: " << "";
     cin >> key;
 
+
     for (int i = 0; i<size; i++)
+    {
+        if (number[i] == key)
         {
-            if (number[i] == key)
-            {
-                cout << number[i] << " is found on the list" << endl;
-                cout << "found at index " << i  << endl;
-                isFound = true;
-                break;
-            }
+            cout << "congrastulations number is found at index " << i << endl;
+            isFound = true;
+            break;
         }
-        if (!isFound){
-            cout << "number not existing" << endl;
+
+        if (!isFound)
+        {
+            cout << "the number is not existing in the list" << endl;
         }
+    }
 
 
     return 0;}
