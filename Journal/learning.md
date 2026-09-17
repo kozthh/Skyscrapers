@@ -52,55 +52,39 @@ Learning Journal
 
 
 ## Tech Stack (from Fullstack roadmap)
-- Java
+- Java / C++ / JavaScript / TypeScript
 - Spring Boot
 - JWT / Authentication
 - REST APIs / GraphQL
 - HTML / CSS / JavaScript / TypeScript / React
-- PostgreSQL / MongoDB / JPA / Hibernate
+- PostgreSQL / MongoDB / JPA / Hibernate / Mysql
 - Tools: Git, Maven, Gradle, Docker, IntelliJ, VS Code
 
 ---
 
 ## Recent Work Log
 
-### 7/31/2026
-- Reviewed the study-plan layout and checked how the PDF folders map to the roadmap.
-- Added detailed study plans for Part D DSA and Part E Career Interview Readiness.
-- Started aligning the study-plan index so each PDF has a matching 30-day tracker and checklist.
+### 2026-09-17
+- [2026-09-17T23:04:41.621+08:00] Studied algorithms and databases for a whole week for midterms; now planning and mapping what I will study next.
+- [2026-09-17T22:53:31.305+08:00] Did many things today in databases review and now reviewing what will be my next steps towards programming.
 
-### 8/1/2026
-- Updated the frontend study-plan folder to match the new Frontend Engineering and Audit PDF.
-- Renamed the frontend plan structure to include audit and review habits, not just UI building.
-- Verified the new frontend study-plan files and cleaned up the folder naming so it matches the new PDF title.
+### 8/30/2026 — Retrospective: Locking In on DSA
+- Decision: Going to **lock in on Data Structures & Algorithms** from here on.
+- Commitment: Consistent, focused practice on DSA (arrays, linked lists, trees, graphs, hash tables, sorting, dynamic programming) and problem-solving (LeetCode-style).
+- Intention: Build real depth instead of just brushing topics, prioritizing consistency and retention.
+- Next: Follow the Part D DSA study plan and track progress daily in this journal.
 
-### 8/2/2026
-- Expanded the Topics section into detailed subfolders so the roadmap phases are no longer flat.
-- Added subtopic READMEs for Java, Git, OOP, core Java, Spring, databases, frontend, React, integrations, DSA, career prep, and the capstone.
-- Aligned the topic pages with the PDF study tracks and validated the structure with a diff check.
+## 8/10/2026
 
-### 8/3/2026
-- Practiced terminal commands and reviewed the basics of command-line fundamentals.
-- Installed WSL and set up the environment for further learning. 
-- Plan to continue studying Linux commands and Java compilation through the terminal.
+Reviewed floating point vs. integer division in Java — learned that casting has to happen before the division (not just on the variable declaration) to actually get a decimal result.
 
-### 8/4/2026
-- Learned basic command-line navigation and file management: `cd` / `cd..`, `dir`, `mkdir`, `del`, `copy`, `move`, `type`, and `REM`.
-- Practiced output/input redirection and piping with `>`, `>>`, `<`, and `|`, plus basic permissions with `icacls`.
-- Reviewed Java CLI basics: `javac Main.java` compiles source code, `java Main` runs the class, and Java is case-sensitive (`Main` is not the same as `main`).
+Fixed syntax highlighting issues in IntelliJ after cloning my Skyscraper repo. Turned out to be caused by hyphens and leading digits in my folder names, which broke valid Java package naming. Renamed the folders and got packages working properly.
 
-## 8/5/2026
-- Reviewed files added/modified today in the workspace (notable items):
-  - `.idea/` workspace files (IDE metadata)
-  - `Skycrapers/README.md`
-  - `Skycrapers/.devcontainer/devcontainer.json`
-  - Updated PDFs and study materials in `Skycrapers/DevLessons/`:
-	- `git-cheatsheet.html`
-	- `git-cheatsheet.pdf`
-	- `Part_D_DSA_Curriculum_Integrated.pdf`
-	- `ShopFlow_PartB_Frontend_Engineering_and_Audit_2026.pdf`
-	- `ShopFlow_PartE_Career_Interview_Readiness_v2.pdf`
-  - `Skycrapers/Journal/learning.md` (this journal)
+Built a **Quiz App** using arrays, `ArrayList`, and a `switch`/`do-while` loop that asks Philippine trivia questions.
+
+Debugged two real bugs along the way:
+- A missing `break` in `case 3` was causing fallthrough into `default`.
+- A `Scanner` buffer issue where `nextInt()` left a leftover newline, which truncated my multi-word answers. Fixed by clearing the buffer with `nextLine()`.
 
 ## 8/6/2026
 - What I learned/practiced today:
@@ -115,23 +99,43 @@ Learning Journal
   - Review updated PDFs and note any changes to study schedules or priorities.
 
 
-## 8/10/2026
+## 8/5/2026
+- Reviewed files added/modified today in the workspace (notable items):
+  - `.idea/` workspace files (IDE metadata)
+  - `Skycrapers/README.md`
+  - `Skycrapers/.devcontainer/devcontainer.json`
+  - Updated PDFs and study materials in `Skycrapers/DevLessons/`:
+	- `git-cheatsheet.html`
+	- `git-cheatsheet.pdf`
+	- `Part_D_DSA_Curriculum_Integrated.pdf`
+	- `ShopFlow_PartB_Frontend_Engineering_and_Audit_2026.pdf`
+	- `ShopFlow_PartE_Career_Interview_Readiness_v2.pdf`
+  - `Skycrapers/Journal/learning.md` (this journal)
 
-Reviewed floating point vs. integer division in Java — learned that casting has to happen before the division (not just on the variable declaration) to actually get a decimal result.
+## 8/4/2026
+- Learned basic command-line navigation and file management: `cd` / `cd..`, `dir`, `mkdir`, `del`, `copy`, `move`, `type`, and `REM`.
+- Practiced output/input redirection and piping with `>`, `>>`, `<`, and `|`, plus basic permissions with `icacls`.
+- Reviewed Java CLI basics: `javac Main.java` compiles source code, `java Main` runs the class, and Java is case-sensitive (`Main` is not the same as `main`).
 
-Fixed syntax highlighting issues in IntelliJ after cloning my Skyscraper repo. Turned out to be caused by hyphens and leading digits in my folder names, which broke valid Java package naming. Renamed the folders and got packages working properly.
+### 8/3/2026
+- Practiced terminal commands and reviewed the basics of command-line fundamentals.
+- Installed WSL and set up the environment for further learning. 
+- Plan to continue studying Linux commands and Java compilation through the terminal.
 
-Built a **Quiz App** using arrays, `ArrayList`, and a `switch`/`do-while` loop that asks Philippine trivia questions.
+### 8/2/2026
+- Expanded the Topics section into detailed subfolders so the roadmap phases are no longer flat.
+- Added subtopic READMEs for Java, Git, OOP, core Java, Spring, databases, frontend, React, integrations, DSA, career prep, and the capstone.
+- Aligned the topic pages with the PDF study tracks and validated the structure with a diff check.
 
-Debugged two real bugs along the way:
-- A missing `break` in `case 3` was causing fallthrough into `default`.
-- A `Scanner` buffer issue where `nextInt()` left a leftover newline, which truncated my multi-word answers. Fixed by clearing the buffer with `nextLine()`.
+### 8/1/2026
+- Updated the frontend study-plan folder to match the new Frontend Engineering and Audit PDF.
+- Renamed the frontend plan structure to include audit and review habits, not just UI building.
+- Verified the new frontend study-plan files and cleaned up the folder naming so it matches the new PDF title.
 
-## 8/30/2026 — Retrospective: Locking In on DSA
-- Decision: Going to **lock in on Data Structures & Algorithms** from here on.
-- Commitment: Consistent, focused practice on DSA (arrays, linked lists, trees, graphs, hash tables, sorting, dynamic programming) and problem-solving (LeetCode-style).
-- Intention: Build real depth instead of just brushing topics, prioritizing consistency and retention.
-- Next: Follow the Part D DSA study plan and track progress daily in this journal.
+### 7/31/2026
+- Reviewed the study-plan layout and checked how the PDF folders map to the roadmap.
+- Added detailed study plans for Part D DSA and Part E Career Interview Readiness.
+- Started aligning the study-plan index so each PDF has a matching 30-day tracker and checklist.
 
 ---
 
@@ -170,10 +174,10 @@ Finished my mini project: a terminal-based **Library Management System** in Java
 - I did study database for hours that is my main focus now how to handle create relational of tables in data base currently using mysql
 
 ## August 24, 2026
-- studied relational database and some functions and ligics how db works 
+- studied relational database and some functions and logics how db works 
 
 ## August 25, 2026 
-- I am making small data bases and studying their relations using join group by AS and etc.
+- I am making small databases and studying their relations using join group by AS and etc.
 
 ## August 26, 2026
 - build a small school database with relational and studying it.
@@ -194,6 +198,44 @@ Finished my mini project: a terminal-based **Library Management System** in Java
 ## September 2 2026 
 -study theories of how group by works in databases
   
+## August 17, 2026
+- I am learning the fundamentals of Database specially the  //bro yesterday github is down 
+
+## August 18, 2026
+- I am learning the fundamentals of Database again also learning about i/cd pipelines learning both
+- 
+## What I did
+Finished my mini project: a terminal-based **Library Management System** in Java, built to practice OOP, SOLID, ArrayList, and exceptions.
+
+## August 19, 2026 
+- I did study database for hours that is my main focus now how to handle create relational of tables in data base currently using mysql
+
+## August 24, 2026
+- studied relational database and some functions and logics how db works 
+
+## August 25, 2026 
+- I am making small databases and studying their relations using join group by AS and etc.
+
+## August 26, 2026
+- build a small school database with relational and studying it.
+
+## August 27, 2026 
+- Studying relational tables and applying it to my initial apps
+  Relational pk fk left side right side cartitian planes.
+
+## August 29, 2026 
+- Studying relational still on FK and PK how do they work and also the cartitian plane is still difficult for me and working on it.
+
+## August 30, 2026 
+- this day I analyze my progress this week so far I think I am not consistent for this week so i need to lock in in DSA and DATABASES but recently i am doing good with databases also i need to improve in egames.
+
+## September 1, 2026 
+- did cpp practices along with algorithms
+
+## September 2 2026 
+-study theories of how group by works in databases
+  
+
 ## Phase 0 — Java Foundations
 - August 8, 2026: Today I took care of my responsibilities, stayed productive, and ended the day feeling proud of myself for getting things done also did small excercises in loops.
 
