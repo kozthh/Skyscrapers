@@ -1,5 +1,7 @@
 # Sorting, Searching, and Hashing
 
+The [search and sorting exercises](Search%20and%20Sorting%20algorithms/README.md) contain small C++ implementations that are intended for tracing and comparison.
+
 Use this subfolder for core algorithm patterns.
 
 Covers:

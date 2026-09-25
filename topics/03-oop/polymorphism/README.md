@@ -1,5 +1,7 @@
 # Polymorphism
 
+Projects: [Discount System](discount-system/README.md) and [Logger System](logger-system/README.md).
+
 Practice method overriding, dispatch, and interchangeable implementations here.
 
 Current projects:

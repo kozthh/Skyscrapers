@@ -1,5 +1,7 @@
 # Relational Modeling
 
+The [ER normalization exercise](ER_Normalization/README.md) is the concrete SQL project for this section.
+
 Use this subfolder for schema design and SQL-first thinking.
 
 Covers:
