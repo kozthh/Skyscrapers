@@ -11,6 +11,13 @@ Use this folder for object-oriented programming practice from the roadmap.
 The legacy `sources.txt` reference list lives here as well.
 Matched PDF track: [Foundations study plan](../../DevLessons/study-plans/ShopFlow_Part0_Foundations_Revised/30-day-plan.md).
 
+Project documentation:
+- [Abstraction projects](abstraction/README.md)
+- [Constructor projects](constructors/README.md)
+- [Encapsulation projects](encapsulation/README.md)
+- [Inheritance projects](inheritance/README.md)
+- [Polymorphism projects](polymorphism/README.md)
+
 Subfolders:
 - [Constructors](constructors/README.md)
 - [Encapsulation](encapsulation/README.md)

@@ -1,5 +1,7 @@
 # SQL and Performance
 
+The [relational algebra exercise](Relational_Algebra/README.md) applies SQL operations to a small analysis problem.
+
 Use this subfolder for query writing, tuning, and transactional behavior.
 
 Covers:

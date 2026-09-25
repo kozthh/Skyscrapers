@@ -1,4 +1,14 @@
-# Primitives vs Reference Types vs Wrapper Classes
+# Java Declarations
+
+This exercise isolates Java data declarations and primitive/reference type basics.
+
+## Learn
+
+- Variables, literals, and type choices.
+- Scope and initialization.
+- How declarations affect later expressions.
+
+Read `Datatypes.java`, then change one type at a time and record the compiler response.# Primitives vs Reference Types vs Wrapper Classes
 
 ## 1. Primitive Types
 - Store the **actual value** directly in a fixed-size memory slot (usually the stack).

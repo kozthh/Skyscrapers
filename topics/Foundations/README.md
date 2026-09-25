@@ -5,6 +5,8 @@ Use this folder for the first phase of the roadmap.
 Topics include Java syntax, variables, control flow, methods, packages, and compilation basics.
 Matched PDF track: [Foundations study plan](../../DevLessons/study-plans/ShopFlow_Part0_Foundations_Revised/30-day-plan.md).
 
+Implementation index: [Foundations hands-on exercises](input_output_and_debugging/Basics/HandsOnExcercises/README.md) and [C++ syntax practice](syntax-and-setup/CPPFOUNDATION/README.md).
+
 Subfolders:
 - [Syntax and Setup](syntax-and-setup/README.md)
 - [Variables and Control Flow](variables-and-control-flow/README.md)
