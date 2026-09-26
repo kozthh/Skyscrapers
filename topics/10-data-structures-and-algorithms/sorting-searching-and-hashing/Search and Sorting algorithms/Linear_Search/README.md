@@ -1,4 +1,4 @@
-# Linear Search
+# Linear Search with Pointers
 
 Checks each value from left to right until it finds the target or reaches the end.
 
@@ -7,5 +7,6 @@ Checks each value from left to right until it finds the target or reaches the en
 - Sequential traversal and early exit.
 - Why the worst case is $O(n)$.
 - How unsorted input can still be searched.
+- How pointer arithmetic can be used to input and search array values.
 
 Trace `LinearAlgo.cpp` with first, middle, last, and missing targets.
